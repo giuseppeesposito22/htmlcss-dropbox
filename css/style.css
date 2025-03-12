@@ -37,6 +37,7 @@ ul {
 
   /* debug */
   border: 1px solid black;
+  background-color: green;
 }
 
 .row {
@@ -54,6 +55,7 @@ ul {
 
   /* debug */
   min-height: 200px;
+  background-color: aqua;
 }
 
 .col-1 {
@@ -74,6 +76,15 @@ ul {
 
 .col-2-3 {
   width: calc(100% / 3 * 2);
+}
+
+.col-1-5 {
+  width: calc(100% / 5);
+}
+
+section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* HEADER  */
@@ -122,15 +133,16 @@ div {
   background-color: green;
 }
 
-.col-1-3,
-.col-2-3 {
-  background-color: aqua;
-}
-
 /* section 2 */
 
 .section-business {
   border-top: 1px solid gray;
   margin-top: 10rem;
   padding-top: 2rem;
+}
+
+/* FOOTER  */
+
+.page-footer {
+  background-color: black;
 }
