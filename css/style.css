@@ -58,7 +58,7 @@ body {
   padding-right: 1rem;
 
   /* debug */
-  /* min-height: 200px; */
+  min-height: 200px;
   background-color: aqua;
 }
 
@@ -92,11 +92,14 @@ section {
 
 .btn {
   padding: 3px 8px;
-  font-size: 1.5rem;
   color: white;
   background-color: #0061fe;
   box-shadow: none;
   border: none;
+}
+
+.txt-center {
+  text-align: center;
 }
 
 /* HEADER  */
@@ -136,6 +139,11 @@ div {
   margin-right: 20px;
 }
 
+.btn.small {
+  min-height: 30px;
+  min-width: 60px;
+}
+
 /* MAIN */
 
 /* section 1 */
@@ -164,9 +172,18 @@ div {
   padding-bottom: 1rem;
 }
 
+.section-jumbo span {
+  display: block;
+}
+
 .section-jumbo p,
 .section-jumbo button {
   margin-bottom: 2rem;
+}
+
+.btn.medium {
+  font-size: 1.5rem;
+  /* padding: 5px 10px; */
 }
 
 /* section 2 */
@@ -179,6 +196,41 @@ div {
 
 .section-business h2 {
   font-size: 2rem;
+}
+
+.section-business .col-1.box-radio {
+  display: flex;
+}
+
+.radio-box {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid blue;
+  margin-right: 5px;
+}
+
+.span-radio {
+  margin-right: 20px;
+}
+
+.professional span {
+  display: block;
+}
+
+.professional a {
+}
+
+.professional span,
+li,
+button {
+  margin-bottom: 10px;
+}
+
+.btn.large {
+  padding: 10px 0px;
+  width: 100%;
+  font-size: 1.2rem;
 }
 
 /* FOOTER  */
