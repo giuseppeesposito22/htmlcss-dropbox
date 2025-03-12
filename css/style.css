@@ -34,6 +34,9 @@ ul {
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+
+  /* debug */
+  border: 1px solid black;
 }
 
 .row {
@@ -43,6 +46,9 @@ ul {
 
   margin-left: 1rem;
   margin-right: 1rem;
+
+  /* debug */
+  border: 1px solid black;
 }
 
 [class*="col"] {
@@ -82,6 +88,7 @@ ul {
 }
 
 .row div {
+  /* debug */
   border: 1px solid black;
 }
 
@@ -92,4 +99,27 @@ ul {
 
 .page-header li {
   display: inline-block;
+}
+
+/* MAIN */
+
+.section-1 {
+  /* debug */
+  background-color: rgb(121, 121, 121);
+  min-height: 600px;
+}
+
+.section-1 .container {
+  position: relative;
+  top: 100px;
+
+  /* debug */
+  background-color: green;
+  min-height: 500px;
+}
+
+.col-1-3,
+.col-2-3 {
+  min-height: 500px;
+  background-color: aqua;
 }
