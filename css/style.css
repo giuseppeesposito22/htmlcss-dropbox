@@ -18,6 +18,10 @@ ul {
   list-style-type: none;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* UTILS */
 
 .debug,
@@ -54,7 +58,7 @@ ul {
   padding-right: 1rem;
 
   /* debug */
-  min-height: 200px;
+  /* min-height: 200px; */
   background-color: aqua;
 }
 
@@ -83,14 +87,23 @@ ul {
 }
 
 section {
-  margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 3px 8px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #0061fe;
+  box-shadow: none;
+  border: none;
 }
 
 /* HEADER  */
 
 .page-header {
-  background-color: orange;
+  font-size: 1.5rem;
+  padding: 20px 0;
 }
 
 .page-header .row {
@@ -110,10 +123,17 @@ div {
 .element-left,
 .element-right {
   display: flex;
+  align-items: center;
 }
 
-.page-header li {
+.element-left li {
   display: inline-block;
+  margin-left: 20px;
+}
+
+.element-right li {
+  display: inline-block;
+  margin-right: 20px;
 }
 
 /* MAIN */
@@ -122,15 +142,31 @@ div {
 
 .section-jumbo {
   /* debug */
-  background-color: rgb(121, 121, 121);
+  background-color: #b4d0e6;
+}
+
+.section-jumbo h1 {
+  font-size: 3rem;
 }
 
 .section-jumbo .container {
   position: relative;
-  top: 100px;
+  top: 90px;
 
   /* debug */
   background-color: green;
+}
+
+.section-jumbo i {
+  display: block;
+  font-size: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.section-jumbo p,
+.section-jumbo button {
+  margin-bottom: 2rem;
 }
 
 /* section 2 */
@@ -139,6 +175,10 @@ div {
   border-top: 1px solid gray;
   margin-top: 10rem;
   padding-top: 2rem;
+}
+
+.section-business h2 {
+  font-size: 2rem;
 }
 
 /* FOOTER  */
