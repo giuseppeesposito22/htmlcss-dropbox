@@ -87,7 +87,7 @@ body {
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 10rem;
 }
 
 .btn {
@@ -331,6 +331,13 @@ div {
 .content-partner p {
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+
+/* SECTION 4 */
+
+.section-operation p {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 /* FOOTER  */
