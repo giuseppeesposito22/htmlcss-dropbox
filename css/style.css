@@ -37,7 +37,7 @@ body {
 }
 
 .container {
-  max-width: 1180px;
+  width: 1100px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -174,7 +174,7 @@ div {
 .section-jumbo .container {
   position: relative;
   top: 70px;
-  width: 1250px;
+  width: 1280px;
 
   /* debug */
   /* background-color: green; */
@@ -221,7 +221,7 @@ div {
 .time-sub {
   display: flex;
   align-items: center;
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 
 .time-sub span {
@@ -236,15 +236,19 @@ div {
   margin-right: 5px;
 }
 
+.section-business .col-1-3 .card {
+  min-height: 980px;
+}
+
 .section-business .card {
-  border: 1px solid gray;
+  border: 1px solid rgb(204, 204, 204);
 }
 
 /* TOP CARD  */
 
 .section-business .top-card {
   text-align: center;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(204, 204, 204);
   padding: 0.5rem 0;
 }
 
@@ -294,6 +298,15 @@ div {
   text-decoration: underline;
 }
 
+.main-card ul {
+  margin-left: 30px;
+}
+
+.main-card-ul {
+  min-height: 200px;
+  margin-bottom: 10px;
+}
+
 /* BOTTOM CARD  */
 
 .bottom-card span {
@@ -306,6 +319,10 @@ div {
   margin-right: 0.5rem;
 }
 
+.bottom-card li {
+  margin: 20px auto;
+}
+
 /* CARD TEAM  */
 
 .bottom-card-team span {
@@ -313,7 +330,7 @@ div {
 }
 
 .bottom-card-team {
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .bottom-card-team h3 {
@@ -353,11 +370,19 @@ div {
   margin-top: 2rem;
 }
 
+.section-operation h2 {
+  font-size: 2.5rem;
+}
+
+.section-operation h3 {
+  font-size: 1.5rem;
+}
+
 /* SECTION 5 */
 
 .section-team h3 {
   margin-bottom: 2rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .section-team a {
@@ -374,7 +399,8 @@ div {
 }
 
 .page-footer h3 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
 .page-footer li {
@@ -390,4 +416,9 @@ div {
   border-top: 2px solid white;
   width: 10%;
   padding-top: 3rem;
+  color: gray;
+}
+
+.bottom-footer i {
+  margin-right: 5px;
 }
