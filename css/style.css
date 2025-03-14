@@ -98,20 +98,27 @@ section {
   padding: 5px 10px;
   min-width: 5rem;
   min-height: 2rem;
-  color: white;
-  box-shadow: none;
-  border: none;
+  background-color: transparent;
+  border-color: currentColor;
+  border-width: thin;
 }
 
 .btn.btn-primary {
-  background-color: blue;
+  background-color: #0061fe;
+  color: white;
+  border-color: #0061fe;
+}
+
+.btn.btn-primary.xl {
+  padding: 10px 16px;
+  font-size: 1rem;
 }
 
 .btn.btn-secondary {
-  background-color: white;
   color: black;
-  border: 1px solid black;
-  font-size: 1.2rem;
+  border-color: black;
+  padding: 10px 16px;
+  font-size: 1.1rem;
 }
 
 .txt-center {
@@ -160,7 +167,7 @@ div {
 
 /* MAIN */
 
-/* section 1 */
+/* section jumbo */
 
 .section-jumbo {
   background-color: #b4d0e6;
@@ -206,7 +213,7 @@ div {
   padding: 10px 20px;
 }
 
-/* section 2 */
+/* section business */
 
 .section-business {
   border-top: 1px solid #f1f1f1;
@@ -228,11 +235,19 @@ div {
   margin-right: 2rem;
 }
 
+.radio-box-checked {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid #0061fe;
+  margin-right: 5px;
+}
+
 .radio-box {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 5px solid blue;
+  border: 2px solid gray;
   margin-right: 5px;
 }
 
@@ -352,7 +367,7 @@ div {
   font-size: 1.2rem;
 } */
 
-/* SECTION 3 */
+/* SECTION partner */
 
 .content-partner {
   margin-top: 4rem;
@@ -363,7 +378,7 @@ div {
   margin-bottom: 2rem;
 }
 
-/* SECTION 4 */
+/* SECTION operation */
 
 .section-operation p {
   margin-bottom: 2rem;
@@ -378,7 +393,7 @@ div {
   font-size: 1.5rem;
 }
 
-/* SECTION 5 */
+/* SECTION team */
 
 .section-team h3 {
   margin-bottom: 2rem;
